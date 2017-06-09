@@ -15,7 +15,9 @@
 </div>-->
 
 <div>
-      Showing product details for product: {{id}}
-      <textarea value = {{name}} > </textarea>>
-
+      Showing product details for product: {{name}}     
+      More Detail Information
+</div>
+<div *ngFor="let h of heroes"> 
+  <p *ngIf="h.name === name">  {{h.id}} {{h.name}}</p>
 </div>

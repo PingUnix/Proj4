@@ -10,9 +10,7 @@
 
 </div>
 <div *ngFor="let hero of heroes">
-<a   [routerLink]="['/hero', hero.id]"
-     
->
+<a [routerLink]="['/hero', hero.name]" >
   {{ hero.name }}
 </a> 
 </div>

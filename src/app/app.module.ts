@@ -13,7 +13,7 @@ import { SummaryComponent } from './summary.component';
 
 const appRoutes: Routes = [
   { path: 'crisis-center', component: CrisisListComponent },
-  { path: 'hero/:id',      component: HeroDetailComponent },
+  { path: 'hero/:name',      component: HeroDetailComponent },
   {
     path: 'heroes',
     component: HeroListComponent,
