@@ -10,6 +10,7 @@ import { HeroListComponent } from './hero-list.component';
 import { NotFoundComponent } from './not-found.component';
 import { CrisisListComponent } from './crisis-list.component';
 import { SummaryComponent } from './summary.component';
+
 const appRoutes: Routes = [
   { path: 'crisis-center', component: CrisisListComponent },
   { path: 'hero/:id',      component: HeroDetailComponent },
